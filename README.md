@@ -1,2 +1,2 @@
-# my-site
-Repo for my personal website
+# Fouad's Website
+This is the repository used for my website.
