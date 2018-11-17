@@ -1,13 +1,15 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(bg2.png) no-repeat;
+    background: url(bg.jpg) no-repeat;
     background-size: cover;
+    background-repeat: no-repeat
 }
 
 .box{
     width: 450px;
-    background: rgba(0, 0, 0, 0.4, green, blue, alpha);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
     padding: 40px;
     text-align: center;
     margin: auto;
