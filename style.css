@@ -1,20 +1,41 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(bg.jpg) no-repeat;
+    background: url(bg1.jpg) no-repeat;
     background-size: cover;
     background-repeat: no-repeat
 }
 
 .box{
-    width: 450px;
-    background: rgba(0, 0, 0, 0.4);
+    width: 460px;
+    background: rgba(0, 0, 0, 0.616);
     border-radius: 15px;
-    padding: 40px;
+    padding: 35px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
     color: white;
     font-family: 'Gill Sans', 'Trebuchet MS', 'sans-serif', 'Calibri';
+    font-size: 20px;
+}
+
+.box p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.box h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 25px;
+    letter-spacing: 1px;
     font-weight: lighter;
+}
+
+.box-img{
+    border-radius: 50%;
 }
