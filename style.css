@@ -15,7 +15,6 @@ section {
 }
 
 .top{
-    padding-top: 0px;
     background: url(bg1.jpg) no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,6 +24,10 @@ section {
 
 
 /*************** HOME SECTION ***************/
+.main-details {
+    padding-top: 100px;
+}
+
 .home{
     width: 20%;
     height: 20%;
@@ -33,7 +36,7 @@ section {
     padding: 30px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 0%;
     color: white;
     font-family: 'Gill Sans', 'Trebuchet MS', 'sans-serif', 'Calibri';
     font-size: 20px;
@@ -151,7 +154,7 @@ ul{
 }
 
 .proj-img{
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .proj1 {
@@ -211,7 +214,6 @@ ul{
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-bottom: 0px;
 }
 
 .navbar a {
