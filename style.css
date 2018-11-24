@@ -20,6 +20,21 @@ section {
     background-repeat: no-repeat;
 }
 
+button {
+    background-color: rgb(199, 198, 136);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(218, 160, 0);
+}
+
 
 
 
@@ -174,6 +189,8 @@ ul{
 
 
 
+
+
 /*************** CONTACT SECTION ***************/
 .contact {
     background-color: white;
@@ -184,6 +201,7 @@ ul{
     padding-top: 1px;
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
 }
 
 .contact h1 {
@@ -192,11 +210,39 @@ ul{
     font-weight: lighter;
 }
 
-.contact-centre {
+.contact h2 {
     display: inline-block;
-    padding: 150px;
-    background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
 }
+
+.contact-centre {
+    padding: 20px;
+    text-align: left;
+    align-content: center;
+}
+
+
+.contact-method li {
+    display: inline-block;
+    padding-top: 0px;
+}
+
+.contact-method a{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+.logo {
+    font-size: 55px;
+    size: 55px;
+}
+
+
 
 
 
