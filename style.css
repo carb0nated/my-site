@@ -20,17 +20,6 @@ section {
     background-repeat: no-repeat;
 }
 
-button {
-    background-color: rgb(199, 198, 136);
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    padding: 15px 25px;
-    text-align: center;
-}
-
 button:hover {
     background-color: rgb(218, 160, 0);
 }
@@ -57,20 +46,22 @@ button:hover {
 }
 
 .home p{
-    text-align: justify;
-    font-size: 20px;
+    text-align: center, justify;
+    font-size: 15px;
+    font-weight: lighter;
 }
 
 .home h1{
-    font-size: 50px;
+    font-size: 55px;
     letter-spacing: 2px;
     font-weight: 100;
+    height: 50px;
 }
 
 .home h5{
     font-size: 20px;
     letter-spacing: 1px;
-    font-weight: lighter;
+    height: 50px;
 }
 
 .home-img{
@@ -126,7 +117,7 @@ ul{
 
 .proj {
     width: 10cm;
-    height: 50%;
+    height: 18cm;
     background: rgba(0, 0, 0, 0.616);
     border-radius: 15px;
     padding: 20px;
@@ -147,8 +138,12 @@ ul{
 
 .projects h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-    font-weight: lighter;
+    font-size: 36px;
+    /*font-weight: lighter;*/
+    display: block;
+    width: 100%;
+    height: 90px;
+    align-content: center
 }
 
 .proj p{
@@ -166,6 +161,10 @@ ul{
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: lighter;
+    display: block;
+    width: 100%;
+    height: 67px;
+    letter-spacing: 2px;
 }
 
 .proj-img{
@@ -184,7 +183,18 @@ ul{
     display: inline-block;
 }
 
-
+.proj button {
+    background-color: rgb(199, 198, 136);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 15px 25px;
+    text-align: center;
+    top: 1.7cm;
+    position: relative;
+}
 
 
 
